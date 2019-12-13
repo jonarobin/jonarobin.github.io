@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <title>Hola 👋 Soy jona!</title>
+
+  <link rel="stylesheet" href="index.css" @media media="screen and (min-device-width: 600px)"x>
+
+  <link rel="stylesheet" href="mindex.css" @media media="screen and (max-device-width: 600px)"x>
+  </head>
+  <body>
+    <!-----------------header----------------->
+    <nav role="navigation" id="principal">
+      <div class="name">
+        <a href="#">Jonatan Robin</a>
+      </div>
+
+    
+
+      <div class="menu">
+        <a href="#dos"> trabajos</a>
+        <a href="https://jonarobin.github.io/JonatanRobin.pdf">curriculum</a>
+        <a href="mailto:jonatan.robin@gmail.com">contacto</a>
+      </div>
+    </nav>
+
+    <nav class="mnav">
+
+      <div class="wrapper-menu" onclick="myFunction()" >
+        <div class="line-menu half start"></div>
+        <div class="line-menu">
+
+        </div>
+        <div class="line-menu half end"></div>
+      </div>
+
+      <div class="mmenu" onclick="myFunction()" >
+        <div class="mmenu2">
+          <a href="#dos"> trabajos</a>
+       
+          <a href="https://jonarobin.github.io/JonatanRobin.pdf">curriculum</a>
+          
+          <a href="mailto:jonatan.robin@gmail.com">contacto</a>
+        </div>
+      </div>
+      </div>
+
+    </nav>
+  
+
+    <!-----------------intro----------------->
+    <main>
+      <div>
+        <div id="intro">
+          <h3 id="hola">👋🏻 , soy</h3>
+          <h3 id="jona">Jona</h3>
+          <img id="anima" src="img/anima.gif" alt="" />
+          <p id="copy">
+            Un enérgico ⚡ diseñador de muchas cosas que utiliza múltiples
+            plataformas, actualmente enfocado en la creación de experiencias
+            genuinas 🚀 a través de las interacciones del usuario, el diseño
+            visual y la elaboración de prototipos. La curiosidad me lleva a
+            aprender 🤓 cosas nuevas constantemente y en ese camino me topé con
+            el mundo de UX 💡: Una amalgama perfecta que une todas las cosas que
+            me apasionan y aprendí en este tiempo.
+          </p>
+        </div>
+      </div>
+      <!-----------------shufilms----------------->
+      <div class="sticky">
+        <div id="dos">
+          <h3 id="shuffilm">Shuffilm.</h3>
+          <h3 id="con">CONCEPTO · UX,UI DESIGN.</h3>
+          <img id="sh" src="img/sh.png" alt="" />
+          <p id="shcopy">
+            ¿Qué ver? ¿Por dónde? <br> Netflix, HBO GO, Amazon Prime, entre otras plataformas de streaming.
+            Cuentan con un amplio catálogo de producciones que termina saturando al espectador a la hora de decidir qué ver.
+            <br />
+            En base a esta problemática nació este concepto, Shuffilm. Un
+            buscador aleatorio en donde se elige el género y el tiempo disponible para la visualización del contenido.
+            <br />
+            <br />
+            <br />
+            
+            <a id="ver" href="shuffilm.html">Ver más ></a>
+       
+          </p>
+        </div>
+      </div>
+
+ <!-----------------geekshop----------------->
+ <div class="sticky">
+
+
+
+  <div id="geek">
+
+    <div class="mhiden">
+   <a href="geekshop.html" id="geeklink">
+    <img id="geekimg" src="img/intro.png" alt="" />
+  </a>
+
+</div>
+
+<div class="dhiden">
+<a href="geekshop.html" id="geeklink">
+    <img id="geekimg1" src="img/intro1.png" alt="" />
+    <img id="geekimg2" src="img/intro2.png" alt="" />
+  </a>
+</div>
+
+   
+  </div>
+</div>
+        
+      <!-----------------en construccion----------------->
+      <div class="sticky">
+        <div id="tres">
+          <img id="cartel" src="img/cartel.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <!-----------------footer----------------->
+    <div class="sticky">
+    <footer>
+      <div id="contacto">
+        <p>Contactame!</p>
+        <br />
+        <a href="mailto:jonatan.robin@gmail.com">Mail</a>
+        ·
+        <a href="https://jonarobin.github.io/JonatanRobin.pdf">Curriculum</a>
+        ·
+        <a href="https://www.linkedin.com/in/jonatanrobin/">LinkedIn</a>
+        ·
+        <a href="https://dribbble.com/jonatanrobin">dribbble</a>
+        <br />
+        <br />
+        <p>Diseñado y codeado a mano</p>
+
+        <p>© 2019</p>
+       
+      </div>
+    </div>
+    <div id="background">👌🏻</div>
+  
+    </footer>
+  </body>
+  <script>
+  var wrapperMenu = document.querySelector('.wrapper-menu');
+  var mmenu = document.querySelector('.mmenu');
+  var mnav = document.querySelector('.mnav');
+
+wrapperMenu.addEventListener('click', function(){
+  wrapperMenu.classList.toggle('open');  
+});
+
+mmenu.addEventListener('click', function(){
+  wrapperMenu.classList.toggle('open');  
+});
+
+function myFunction() {
+  
+  if (mmenu.style.visibility === "visible") {
+    mmenu.style.visibility = "hidden";
+    mnav.style.height= "0vh";
+  } else {
+    mmenu.style.visibility = "visible";
+    mnav.style.height= "100vh";
+  }
+}
+
+
+
+
+  </script>
+</html>

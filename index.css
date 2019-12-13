@@ -1,0 +1,286 @@
+/*-----------------global-----------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:700&display=swap");
+
+* {
+  font-family: "Helvetica Neue";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e4e4e4;
+}
+
+/*-----------------header-----------------*/
+
+nav {
+  position: fixed;
+  width: 100%;
+  min-width: 900px;
+  background: rgba(228, 228, 228, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.mnav {
+  display: none;
+  z-index: 1;
+}
+
+#principal {
+  width: 100%;
+  height: 100px;
+  line-height: 114px;
+  display: flex;
+  padding: 0 130px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+#principal a {
+  text-decoration: none;
+  padding: 30px;
+  font: Bold 17px/25px "Helvetica Neue";
+  color: #323232;
+  opacity: 1;
+}
+
+#principal a:hover {
+  opacity: 0.5;
+}
+
+/*-----------------intro-----------------*/
+#intro {
+  width: 100%;
+  height: 100%;
+  min-height: 750px;
+}
+
+.dhiden {
+  display: none;
+}
+
+#hola {
+  text-align: center;
+  font: normal 30px/74px "Helvetica Neue";
+  color: #323232;
+  padding-top: 120px;
+  margin: 0;
+}
+
+#jona {
+  text-align: center;
+  font: Bold 60px/74px "Helvetica Neue";
+  color: #323232;
+  margin-top: -20px;
+}
+
+#anima {
+  top: -200px;
+  display: block;
+  margin: auto;
+  position: relative;
+  max-width: 40%;
+  min-width: 500px;
+}
+#copy {
+  max-width: 620px;
+  font: Bold 18px/23px Helvetica Neue;
+  color: #6f6f6f;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+/*-----------------shufilms-----------------*/
+
+#dos {
+  height: 800px;
+  width: 100vw;
+  background-color: #6c6b82;
+  -webkit-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+}
+#shuffilm {
+  font-family: "Poppins", sans-serif;
+  font: Bold 118px/177px Poppins;
+  letter-spacing: -1.18px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #00000029;
+  text-align: center;
+  padding-top: 150px;
+  position: relative;
+  margin: 0;
+  padding-left: 100px;
+}
+#con {
+  color: #e7e8e8;
+  text-align: center;
+  font: 18px/22px Helvetica Neue;
+  font-weight: normal;
+  opacity: 0.7;
+  padding-left: 400px;
+  margin-top: -40px;
+}
+
+#sh {
+  max-height: 658px;
+  min-width: 10vw;
+  padding-right: 500px;
+  margin: 0 auto;
+  display: block;
+  margin-top: -270px;
+}
+
+#shcopy {
+  max-width: 675px;
+  margin: auto;
+  margin-top: -370px;
+  padding-left: 230px;
+  font: Medium 18px/23px "Helvetica Neue";
+  color: #ffffff;
+}
+#ver {
+  width: 809px;
+  text-decoration: none;
+  margin-left: 320px;
+  font: normal 25px/30px Helvetica Neue;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#ver:hover {
+  text-decoration: underline;
+}
+
+/*-----------------geekshop-----------------*/
+
+#geek {
+  height: 850px;
+  width: 100vw;
+  background: rgb(78, 68, 109);
+  background: linear-gradient(
+    68deg,
+    rgba(78, 68, 109, 1) 0%,
+    rgba(162, 117, 128, 1) 52%,
+    rgba(126, 143, 164, 1) 100%
+  );
+  -webkit-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+}
+
+#con {
+  color: #e7e8e8;
+  text-align: center;
+  font: 18px/22px Helvetica Neue;
+  font-weight: normal;
+  opacity: 0.7;
+  padding-left: 400px;
+  margin-top: -40px;
+}
+
+#sh {
+  max-height: 658px;
+  min-width: 10vw;
+  padding-right: 500px;
+  margin: 0 auto;
+  display: block;
+  margin-top: -270px;
+}
+
+#shcopy {
+  max-width: 675px;
+  margin: auto;
+  margin-top: -370px;
+  padding-left: 230px;
+  font: Medium 18px/23px "Helvetica Neue";
+  color: #ffffff;
+}
+
+#geekimg {
+  max-height: 90vh;
+  position: relative;
+  top: 5vh;
+  margin: auto;
+  display: block;
+}
+
+#geekimg:hover {
+  max-height: 89vh;
+}
+
+/*-----------------en construccion-----------------*/
+
+#tres {
+  height: 750px;
+  width: 100vw;
+  position: relative;
+  top: -60px;
+  background-color: #ecdada;
+  -webkit-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  border-radius: 40px;
+}
+#cartel {
+  max-height: 50vh;
+  position: relative;
+  top: 20%;
+  margin: auto;
+  display: block;
+}
+
+/*-----------------footer-----------------*/
+
+#contacto {
+  text-align: center;
+  margin: -200px;
+  height: 290px;
+  width: 100vw;
+  color: #ffd607;
+  position: absolute;
+  top: -120px;
+  background-color: #161616;
+  margin: 0;
+  padding: 50px;
+  -webkit-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px -7px 38px -18px rgba(0, 0, 0, 0.7);
+  border-radius: 40px;
+}
+
+#background {
+  position: relative;
+  width: 100vw;
+  height: 60px;
+  top: 120px;
+  margin: auto;
+  text-align: center;
+  background-color: #161616;
+  transform: rotate(180deg) perspective(0);
+  padding-top: 15px;
+}
+
+#contacto a {
+  font: Bold 17px/25px "Helvetica Neue";
+  color: #ffd607;
+  text-decoration: none;
+  opacity: 0.5;
+}
+#contacto a:hover {
+  opacity: 1;
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10px;
+}
